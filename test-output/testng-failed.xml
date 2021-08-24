@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="url" value="http://www.nethorizonconsultancy.com/Provider.aspx"/>
+  <test name="Test2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="http://www.nethorizonconsultancy.com/Provider.aspx"/>
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="test"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
